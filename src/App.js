@@ -1,9 +1,15 @@
+
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
+
+
+import "./App.css";
+import Navbar from "./Components/Navbar";
+
 
 function App() {
   return (
     <div className="App">
+
       
       <div class="row">
         <div class="col-md-8">.col-md-8</div>
@@ -23,6 +29,9 @@ function App() {
         <div class="col">Column</div>
       </div>
     </div>
+
+
+      <Navbar />
 
     </div>
   );
