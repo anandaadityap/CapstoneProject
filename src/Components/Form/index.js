@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Login/Index.css';
+import './Index.css';
 import BackLogin from '../../Images/login.png';
 
-const Login = () => {
+const Form = () => {
     return (
     <div class="container">
     <div class="row flex-row">
@@ -41,4 +41,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Form;
