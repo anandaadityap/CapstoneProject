@@ -1,6 +1,9 @@
 import React from "react";
-import CardHome from "../Components/CardHome";
-import CardPelatihan from "../Components/CardPelatihan";
+import CardHome from "../Components/Card/CardHome";
+import CardPelatihan from "../Components/Card/CardPelatihan";
+import CardStart from "../Components/Card/CardStart";
+import startlearning from "../assets/home_kit/startlearning.png";
+import startclass from "../assets/home_kit/startclass.png";
 
 const Home = () => {
   return (
@@ -26,7 +29,25 @@ const Home = () => {
       {/* penutup bagian 3 */}
 
       {/* bagian 3 */}
-      <div></div>
+      <div className="container">
+        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+          <h1>
+            LET'S GET <span style={{ color: "yellow" }}>STARTED NOW</span>
+          </h1>
+          <p>
+            "Directed" a platform that allows people to create online classes and seeking for a job 
+            that they can apply by online. Getting job and increase skills with course that available at this platform
+          </p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <CardStart src={startlearning}/>
+          </div>
+          <div class="col">
+            <CardStart src={startclass}/>
+          </div>
+        </div>
+      </div>
       {/* penutup bagian 3 */}
 
       {/* bagian 4 */}
