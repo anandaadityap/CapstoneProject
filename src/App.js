@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
-import Login from './Page/Login';
-
+import CardHome from "./Components/CardHome";
+import Login from "./Page/Login";
+import Home from "./Page/Home";
 
 function App() {
   return (
     <div className="App">
-
-      <Login />
-
+      <Home />
     </div>
   );
 }
