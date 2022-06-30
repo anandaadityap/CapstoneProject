@@ -1,5 +1,5 @@
 import React from 'react'
-// import "./style.css"
+import "../Navbar/Index.css";
 
 
 const Navbar = () => {
@@ -26,14 +26,13 @@ const Navbar = () => {
                   <li className="nav-item"><a className="nav-link" href="#">Search Job</a></li>
                   <li className="nav-item"><a className="nav-link" href="#">Tentang</a></li>
                 </ul>
-
-              </div>
-
             </div>
-
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-
           </div>
+              <div class="col-6 col-md-4">
+                <button class="button-primary">Sign Up</button>
+                <button class="button-secundary">Sign In</button>  
+              </div>
+              </div>
 
         {/* </div> */}
 
