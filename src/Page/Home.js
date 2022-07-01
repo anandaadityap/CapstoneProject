@@ -1,9 +1,11 @@
 import React from "react";
 import CardHome from "../Components/CardHome";
+import Navbar from "../Components/Navbar";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       {/* bagian 1 */}
       <div></div>
       {/* penutup bagian 1 */}
