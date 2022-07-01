@@ -6,6 +6,7 @@
 }
 
 .header1 {
+    
     position: absolute;
     left: 5.79%;
     right: 60.01%;
@@ -22,6 +23,7 @@
 }
 
 .header2 {
+   
     position: absolute;
     left: 5.79%;
     right: 60.15%;
@@ -37,7 +39,7 @@
     color: azure;
 }
 
-.button-primary {
+.button-primaryy {
     position: absolute;
     left: 16.79%;
     right: 60.15%;
