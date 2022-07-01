@@ -10,6 +10,7 @@ import jam from "../assets/home_kit/jam.png";
 import toga from "../assets/home_kit/toga.png";
 import tas from "../assets/home_kit/tas.png";
 import webinar from "../assets/home_kit/webinar.png";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -93,6 +94,7 @@ const Home = () => {
       {/* bagian 5 */}
       <div></div>
       {/* penutup bagian 5 */}
+      <Footer />
     </div>
   );
 };

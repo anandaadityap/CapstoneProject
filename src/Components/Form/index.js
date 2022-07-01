@@ -4,11 +4,11 @@ import BackLogin from "../../assets/login.png";
 
 const Form = () => {
   return (
-    <div class="container">
-      <div class="row flex-row">
+    <div class="form-container m-5">
+      <div class="row">
         <div class="col-md-6">
-          <div className="box-form">
-            <div class="header">
+          <div className="box-form p-5">
+            <div class="header mb-4">
               <div class="h4">LOGIN</div>
               <div class="h1">WELCOME</div>
             </div>
@@ -39,6 +39,7 @@ const Form = () => {
                     className="icon"
                     src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
                     alt="icon"
+                    width="5%"
                   />{" "}
                   Masuk dengan Google
                 </button>
@@ -49,6 +50,7 @@ const Form = () => {
                     className="icon"
                     src="https://i.pinimg.com/originals/8e/fb/55/8efb55e9efc12eb11bedf41caa7f33bb.png"
                     alt="icon"
+                    width="5%"
                   />{" "}
                   Masuk dengan Facebook
                 </button>
@@ -65,7 +67,7 @@ const Form = () => {
                 <p>
                   Belum Punya Akun?
                   <a href="#.">
-                    <small className="reset">Daftar Sekarang</small>
+                    <small className="reset mb-5">Daftar Sekarang</small>
                   </a>
                 </p>
               </div>
@@ -74,7 +76,7 @@ const Form = () => {
         </div>
 
         <div class="col-md-6">
-          <img className="back-login" src={BackLogin} alt="Gambar Login" />
+          <img className="back-login" src={BackLogin} alt="Gambar Login" width="100%"/>
         </div>
       </div>
     </div>
