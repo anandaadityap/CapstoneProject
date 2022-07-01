@@ -27,12 +27,12 @@ const Navbar = () => {
                   <li className="nav-item"><a className="nav-link" href="#">Tentang</a></li>
                 </ul>
             </div>
-          </div>
+            </div>
               <div class="col-6 col-md-4">
                 <button class="button-primary">Sign Up</button>
                 <button class="button-secundary">Sign In</button>  
               </div>
-              </div>
+            </div>
 
         {/* </div> */}
 
