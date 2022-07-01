@@ -3,33 +3,35 @@ import "../Footer/index.css"
 
 const Footer = () => {
     return(
-      <div class="footer-container">
-      <div class="footer">
-        <div class="footer-heading footer-1">
-          <h2>Directed.</h2>
+    <div class="footer-container">
+      <div class="row m-4">
+        <div class="col-md-3">
+          <h1>Directed.</h1>
           <p>Directed adalah sebuah platform meningkatkan skill dan membangun karir anda.</p>
         </div>
-        <div class="footer-heading footer-2">
-          <h2>Directed</h2>
-          <a href="#">Education</a>
-          <a href="#">Career Centers</a>
-          <a href="#">Forums</a>
-          <a href="#">Articles</a>
+        <div class="col-md-3">
+          <ul><h5>Directed</h5>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Career Centers</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Articles</a></li>
+          </ul>
         </div>
-        <div class="footer-heading footer-3">
-          <h2>Directed</h2>
-          <a href="#">Syarat dan Ketentuan</a>
-          <a href="#">Kebijakan Privasi</a>
-          <a href="#">Disclaimer</a>
-          <a href="#">Hubungi Kami</a>
+        <div class="col-md-3">
+          <ul><h5>Bantuan dan Panduan</h5>
+            <li><a href="#">Syarat dan Ketentuan</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Hubungi Kami</a></li>
+          </ul>
         </div>
-        <div class="footer-email-form">
-          <h2>Stay Up To Date With The Latest Courses</h2>
-          <input type="email" placeholder="Enter your email address" id="footer-email" />
-          <input type="submit" value="Send" id="footer-email-btn" />
+        <div class="col-md-3">
+          <h5>Stay Up To Date With The Latest Courses</h5>
+          <input type="email" class="form-control" placeholder="Enter your email address" aria-label="Username" aria-describedby="basic-addon1" />
+          <button type="submit" value="Send" class="btn btn-success">Send</button>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div class="footer-bottom mb-2">
         &Copyright @Directed-2022 | All Rights Reserved
       </div>
     </div>
