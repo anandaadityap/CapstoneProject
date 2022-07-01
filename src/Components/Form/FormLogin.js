@@ -1,8 +1,10 @@
 import React from "react";
 import "./Index.css";
-import BackLogin from "../../assets/login.png";
 
-const Form = () => {
+
+const FormLogin = (props) => {
+  const {src} = props;
+  
   return (
     <div class="form-container m-5">
       <div class="row">
@@ -76,11 +78,11 @@ const Form = () => {
         </div>
 
         <div class="col-md-6">
-          <img className="back-login" src={BackLogin} alt="Gambar Login" width="100%"/>
+          <img className="back-login" src={src} alt="Gambar Login" width="100%"/>
         </div>
       </div>
     </div>
   );
 };
 
-export default Form;
+export default FormLogin;
