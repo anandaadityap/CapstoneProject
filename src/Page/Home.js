@@ -5,6 +5,9 @@ import CardPelatihan from "../Components/Card/CardPelatihan";
 import CardStart from "../Components/Card/CardStart";
 import startlearning from "../assets/home_kit/startlearning.png";
 import startclass from "../assets/home_kit/startclass.png";
+
+import "../Page/Home.css";
+
 import Navbar from "../Components/Navbar";
 import jam from "../assets/home_kit/jam.png";
 import toga from "../assets/home_kit/toga.png";
@@ -12,12 +15,21 @@ import tas from "../assets/home_kit/tas.png";
 import webinar from "../assets/home_kit/webinar.png";
 import Footer from "../Components/Footer";
 
+
 const Home = () => {
   return (
     <div>
       <Navbar />
       {/* bagian 1 */}
-      <div></div>
+      <div> 
+        <div className="conatinerrs">
+            <h1 class="header1">Tingkatkan Karirmu Bersama Kami</h1>
+            <p class="header2">Directed, membantumu untuk mencari pekerjaan sesuai bakat dan minat yang kamu miliki</p>
+                <button class="button-primary">Sign Up</button>
+                <button class="button-secondary">Sign In</button>
+        </div>
+      </div>
+
       {/* penutup bagian 1 */}
 
       {/* bagian 2 */}
