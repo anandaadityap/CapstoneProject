@@ -5,6 +5,8 @@ import CardFront from "../Components/Card/CardFront";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
+import "../Page/Pelatihan.css";
+
 import Html from '../assets/home_kit/Html.png';
 import Css from '../assets/home_kit/Css.png';
 import Js from '../assets/home_kit/Js.png';
@@ -15,7 +17,17 @@ const Pelatihan = () => {
     <div>
       <Navbar />
       {/* bagian 1 */}
-      <div></div>
+      <div className="pelatihan-container">
+          <h1 className="card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</h1>
+          <p className="card-text "> <span style={{ color: "yellow" }}>
+            Pelatihan terjangkau, mulai dari Rp 0
+            </span>
+          </p>
+          <div class="home mt-5">
+            <button type="button" class="btn btn-outline-primary">SignIn</button>
+            <button type="button" class="btn btn-outline-warning">SignUp</button>
+          </div>
+    </div>
       {/* penutup bagian 1 */}
 
       {/* bagian 2 */}

@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
       <div class="footer-bottom mb-2">
-        &Copyright @Directed-2022 | All Rights Reserved
+        Copyright @Directed-2022 | All Rights Reserved
       </div>
     </div>
   );
