@@ -6,7 +6,7 @@ const FormLogin = (props) => {
   const {src} = props;
   
   return (
-    <div class="form-container m-5">
+    <div class="form-container pt-5 m-5">
       <div class="row">
         <div class="col-md-6">
           <div className="box-form p-5">
