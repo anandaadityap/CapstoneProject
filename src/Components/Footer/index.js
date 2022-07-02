@@ -4,15 +4,15 @@ import "../Footer/index.css";
 const Footer = () => {
   return (
     <div class="footer-container">
-      <div class="row m-4">
-        <div class="col-md-3">
+      <div class="row row-cols-2 row-cols-md-4 m-4">
+        <div class="col-md-3 text-start">
           <h1>Directed.</h1>
           <p>
             Directed adalah sebuah platform meningkatkan skill dan membangun
             karir anda.
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-start">
           <ul>
             <h5>Directed</h5>
             <li>
@@ -29,7 +29,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-start">
           <ul>
             <h5>Bantuan dan Panduan</h5>
             <li>
@@ -46,7 +46,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-start">
           <h5>Stay Up To Date With The Latest Courses</h5>
           <input
             type="email"
