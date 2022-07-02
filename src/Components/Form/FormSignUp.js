@@ -6,7 +6,7 @@ const FormSignUp = (props) => {
   const {src} = props;
   
   return (
-    <div class="form-container m-5">
+    <div class="form-container pt-5 m-5">
       <div class="row">
         <div class="col-md-6">
           <div className="box-form p-5">
@@ -15,8 +15,7 @@ const FormSignUp = (props) => {
               <div class="h1">WELCOME</div>
             </div>
             <form>
-              <div class="email">
-                <label for="input-email">Email Address</label>
+              <div class="email mb-3">
                 <input
                   type="email"
                   class="form-control"
@@ -26,7 +25,6 @@ const FormSignUp = (props) => {
                 />
               </div>
               <div class="pwd mb-3">
-                <label for="input-password">Password</label>
                 <input
                   type="password"
                   class="form-control"

@@ -10,10 +10,11 @@ import CardMateri from "./Components/Card/CardMateri";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home /> 
       {/* <Login /> */}
-      {/* <SignUp /> */}
-      <CardMateri />
+
+    {/* <SignUp /> */}
+
     </div>
   );
 }
