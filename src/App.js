@@ -17,27 +17,33 @@ function App() {
 
   return (
   <div className="App">
-    <Navbar />
       <Router>
+      <Navbar />
         <Switch>
+
           <Route exact path="/Login">
             <Login />
           </Route>
+          
           <Route exact path="/SignUp">
             <SignUp />
           </Route>
+          
           <Route exact path="/Kursus">
             <Kursus />
           </Route>
+          
           <Route exact path="/Pelatihan">
             <Pelatihan />
           </Route>
+          
           <Route exact path="/">
             <Home/>
           </Route>
+
         </Switch>
+        <Footer />
       </Router>
-    <Footer />
   </div>
   );
 }

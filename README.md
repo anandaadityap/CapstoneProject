@@ -3,6 +3,13 @@
 
 Repositori ini berisi kumpulan code JavaScript mulai dari materi Basic, DOM, ES6, hingga Web Api. Tidak hanya itu, repositori ini juga memiliki berbagai macam code mengenai struktur data dan algoritma yang diimplementasikan dengan menggunakan JavaScript.
 
+Project merupakan platform untuk mencari lowongan pekerjaan dan kursus secara online untuk membantu meningkatkan skill dan nilai dari para lulusan SMK/Sarjana perguruan tinggi agar menekan tingkat pengangguran dari kalangan muda masyarakat Indonesia.
+
+## Fitur
+Pelatihan Teknologi
+Rekomendasi lowongan pekerjaan
+Mencari lowongan kerja
+
 ## Panduan Penggunaan Git
 
 * [Mengunduh repository ke dalam komputer](http://https://github.com/datascienceid/README#mengunduh-repository)
@@ -355,3 +362,15 @@ env/
 venv/
 ```
 
+## How to Install & run
+
+setelah melakukan cloning pada repository lakukan command berikut pada terminal scope project
+
+```bash
+npm install
+```
+
+Kemudian tunggu hingga seluruh modul dan dependencies dari project selesai terdownload, setelah selesai lakukan command berikut untuk menjalankan project
+```
+npm starts
+```

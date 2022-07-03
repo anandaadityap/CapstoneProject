@@ -24,17 +24,17 @@ const Navbar = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link active" aria-current="page" >
+                  <Link exact to="/" className="nav-link active" aria-current="page" >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/Pelatihan" className="nav-link" >
+                  <Link exact to="/Pelatihan" className="nav-link" >
                     Pelatihan
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link" >
+                  <Link exact to="/" className="nav-link" >
                     Search Job
                   </Link>
                 </li>
@@ -51,8 +51,8 @@ const Navbar = () => {
             </div>
           </div>
           <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-primary"><Link to="/Login">SignIn</Link></button>
-            <button type="button" class="btn btn-outline-warning"><Link to="/SignUp">SignUp</Link></button>
+            <button type="button" class="btn btn-outline-primary"><Link exact to={'/Login'}>SignIn</Link></button>
+            <button type="button" class="btn btn-outline-warning"><Link exact to="/SignUp">SignUp</Link></button>
           </div>
         </div>
 
