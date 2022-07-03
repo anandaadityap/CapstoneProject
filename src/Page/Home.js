@@ -1,11 +1,11 @@
 import React from "react";
 import "../Page/Home.css";
-import Navbar from "../Components/Navbar";
+
 import CardHome from "../Components/Card/CardHome";
 import CardPelatihan from "../Components/Card/CardPelatihan";
 import startclass from "../assets/home_kit/startclass.png";
 import CardPopuler from "../Components/Card/CardPopuler";
-import Footer from "../Components/Footer";
+
 
 
 import CardStart from "../Components/Card/CardStart";
@@ -29,7 +29,7 @@ import Java from '../assets/home_kit/Java.png';
 const Home = () => {
   return (
     <div>
-      <Navbar />
+     
       {/* bagian 1 */}
       <div>
         <div className="home-container">
@@ -185,7 +185,7 @@ const Home = () => {
       
         </div>
       {/* penutup bagian 5 */}
-      <Footer />
+      
     </div>
   );
 };

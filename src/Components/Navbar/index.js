@@ -1,5 +1,6 @@
 import React from "react";
 import "../Navbar/Index.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,9 +10,9 @@ const Navbar = () => {
         style={{ backgroundColor: "#003060" }}
       >
         <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
+        <Link className="navbar-brand fw-bold" href="#">
                 Directed.
-              </a>
+               </Link>
           {/* <div class="row"> */}
           <div class="col-md-8 m-2">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,22 +24,22 @@ const Navbar = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link to="/" className="nav-link active" aria-current="page" >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/Pelatihan" className="nav-link" >
                     Pelatihan
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/" className="nav-link" >
                     Search Job
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" >
                     Tentang
                   </a>
                 </li>
@@ -50,8 +51,8 @@ const Navbar = () => {
             </div>
           </div>
           <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-primary">SignIn</button>
-            <button type="button" class="btn btn-outline-warning">SignUp</button>
+            <button type="button" class="btn btn-outline-primary"><Link to="/Login">SignIn</Link></button>
+            <button type="button" class="btn btn-outline-warning"><Link to="/SignUp">SignUp</Link></button>
           </div>
         </div>
 
