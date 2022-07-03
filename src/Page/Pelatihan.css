@@ -1,0 +1,13 @@
+.pelatihan-container {
+    max-width: 100%;
+    text-align: left;
+    padding-left: 6%;
+    padding-top: 13%;
+    padding-bottom: 11%;
+    padding-right: 57%;
+    color: azure;
+    font-family: 'Poppins';
+    background-image: url(../assets/pelatihan_kit/pelatihan.png);
+    background-size: cover;
+
+}
