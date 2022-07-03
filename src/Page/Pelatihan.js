@@ -1,9 +1,7 @@
 import React from "react";
 
 import CardFront from "../Components/Card/CardFront";
-
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+ 
 
 import "../Page/Pelatihan.css";
 
@@ -15,7 +13,6 @@ import Rea from '../assets/home_kit/Rea.png';
 const Pelatihan = () => {
   return (
     <div>
-      <Navbar />
       {/* bagian 1 */}
       <div className="pelatihan-container">
           <h1 className="card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</h1>
@@ -78,7 +75,6 @@ const Pelatihan = () => {
       {/* bagian 4 */}
       <div></div>
       {/* penutup bagian 4 */}
-      <Footer />
     </div>
   );
 };
