@@ -14,7 +14,7 @@ const CardMateri = () => {
           <div className="card-body text-start">
             <h4 className="card-title fw-bold ">{data.tittle} </h4>
             <p className="card-text">{data.bintang}</p>
-            <p className="card-text fw-bold"> {data.creator}</p>
+            <p className="card-text fw-bold">by : {data.creator}</p>
             <p className="card-text">{data.desc}</p>
             <a
               href="#"
