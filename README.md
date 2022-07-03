@@ -7,7 +7,9 @@ Project merupakan platform untuk mencari lowongan pekerjaan dan kursus secara on
 
 ## Fitur
 Pelatihan Teknologi
+
 Rekomendasi lowongan pekerjaan
+
 Mencari lowongan kerja
 
 ## Panduan Penggunaan Git
