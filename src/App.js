@@ -5,7 +5,8 @@ import jam from "./assets/home_kit/jam.png";
 import Login from "./Page/Login";
 import Home from "./Page/Home";
 import SignUp from "./Page/SignUp";
-import CardMateri from "./Components/Card/CardMateri";
+
+import Kursus from "./Page/Kursus";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* <Home /> */}
       {/* <Login /> */}
       {/* <SignUp /> */}
-      <CardMateri />
+      <Kursus />
     </div>
   );
 }
