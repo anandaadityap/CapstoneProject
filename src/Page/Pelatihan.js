@@ -1,42 +1,74 @@
 import React from "react";
 
 import CardFront from "../Components/Card/CardFront";
- 
+import CardHome from "../Components/Card/CardHome";
+import jam from "../assets/home_kit/jam.png";
+import toga from "../assets/home_kit/toga.png";
+import tas from "../assets/home_kit/tas.png";
+import webinar from "../assets/home_kit/webinar.png";
 
 import "../Page/Pelatihan.css";
 
-import Html from '../assets/home_kit/Html.png';
-import Css from '../assets/home_kit/Css.png';
-import Js from '../assets/home_kit/Js.png';
-import Rea from '../assets/home_kit/Rea.png';
+import Html from "../assets/home_kit/Html.png";
+import Css from "../assets/home_kit/Css.png";
+import Js from "../assets/home_kit/Js.png";
+import Rea from "../assets/home_kit/Rea.png";
 
 const Pelatihan = () => {
   return (
     <div>
       {/* bagian 1 */}
       <div className="pelatihan-container">
-          <h1 className="card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</h1>
-          <p className="card-text "> <span style={{ color: "yellow" }}>
+        <h1 className="card-title fw-bold">
+          Kembangkan keterampilan Anda dengan kursus online bersama directed.
+        </h1>
+        <p className="card-text ">
+          {" "}
+          <span style={{ color: "yellow" }}>
             Pelatihan terjangkau, mulai dari Rp 0
-            </span>
-          </p>
-          <div class="home mt-5">
-            <button type="button" class="btn btn-outline-primary">SignIn</button>
-            <button type="button" class="btn btn-outline-warning">SignUp</button>
-          </div>
-    </div>
+          </span>
+        </p>
+        <div class="home mt-5">
+          <button type="button" class="btn btn-outline-primary">
+            SignIn
+          </button>
+          <button type="button" class="btn btn-outline-warning">
+            SignUp
+          </button>
+        </div>
+      </div>
       {/* penutup bagian 1 */}
 
       {/* bagian 2 */}
-      <div></div>
+      <div className="container d-flex">
+        <CardHome
+          img={jam}
+          tittle="Jadwal Pelatihan"
+          desc="Ikuti webinar gratis yang dapat mengembangkan soft skill dan career rediness kamu"
+        />
+        <CardHome
+          img={toga}
+          tittle="Peserta"
+          desc=">4K Peserta mengikuti pelatihan kami."
+        />
+        <CardHome
+          img={tas}
+          tittle="+100 Career Center"
+          desc="Lowongan Kerja tersedia sesuai bakat dan minat yang kamu miliki"
+        />
+        <CardHome
+          img={webinar}
+          tittle="+60 webinars"
+          desc="Ikuti webinar gratis yang dapat mengembangkan soft skill dan career rediness kamu"
+        />
+      </div>
+
       {/* penutup bagian 2 */}
 
       {/* bagian 3 */}
       <div className="container">
         <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
-          <h1>
-              Pelatihan Front End Developer
-          </h1>
+          <h1>Pelatihan Front End Developer</h1>
         </div>
 
         <div className="d-flex">
@@ -68,8 +100,8 @@ const Pelatihan = () => {
             star="4.9"
             price="RP. 90.0000"
           />
-          </div>
         </div>
+      </div>
       {/* penutup bagian 3 */}
 
       {/* bagian 4 */}
