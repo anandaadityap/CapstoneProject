@@ -6,8 +6,6 @@ import CardPelatihan from "../Components/Card/CardPelatihan";
 import startclass from "../assets/home_kit/startclass.png";
 import CardPopuler from "../Components/Card/CardPopuler";
 
-
-
 import CardStart from "../Components/Card/CardStart";
 import startlearning from "../assets/home_kit/startlearning.png";
 import jam from "../assets/home_kit/jam.png";
@@ -54,8 +52,7 @@ const Home = () => {
             All-In-One <span style={{ color: "yellow" }}>Can Be Directed.</span>
           </h1>
           <p>
-            Directed is one of the most powerful online software that combines
-            all the tools needed to carry out honing skills and finding work
+          Directed adalah salah satu perangkat lunak online paling kuat yang menggabungkan pelatihan teknologi yang diperlukan untuk mengasah keterampilan dan mencari pekerjaan.
           </p>
         </div>
 
@@ -91,9 +88,7 @@ const Home = () => {
             LET'S GET <span style={{ color: "yellow" }}>STARTED NOW</span>
           </h1>
           <p>
-            "Directed" a platform that allows people to create online classes
-            and seeking for a job that they can apply by online. Getting job and
-            increase skills with course that available at this platform
+          "Directed" sebuah platform yang memungkinkan orang untuk membuat kelas online dan mencari pekerjaan yang dapat mereka lamar secara online. Dapatkan pekerjaan dan tingkatkan keterampilan dengan kursus yang tersedia di platform ini
           </p>
         </div>
         <div class="row">
@@ -111,7 +106,7 @@ const Home = () => {
       <div className="container">
         <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
           <h1>
-              PELATIHAN POPULER
+              Our <span style={{ color: "yellow" }}>Popular Course</span>
           </h1>
           <p>
               yuk simak pelatihan yang banyak di ikuti saat ini
@@ -121,17 +116,23 @@ const Home = () => {
         <div className="d-flex">
           <CardPelatihan
             img={Word}
-            title="Microsoft Word"
-            desc="90 Peserta Telah Mengikuti"
+            title="Word"
+            star="⭐⭐⭐⭐"
+            hour="17 jam"
+            desc="60 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Excel}
-            title="Microsoft Excel"
-            desc="90 Peserta Telah Mengikuti"
+            title="Excel"
+            star="⭐⭐⭐"
+            hour="10 jam"
+            desc="80 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Point}
-            title="Microsoft Power Point"
+            title="Power Point"
+            star="⭐⭐"
+            hour="18 jam"
             desc="90 Peserta Telah Mengikuti"
           />
         </div>
@@ -140,16 +141,22 @@ const Home = () => {
           <CardPelatihan
             img={Html}
             title="HTML"
+            star="⭐⭐⭐"
+            hour="4 jam"
             desc="90 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Css}
             title="CSS"
+            star="⭐⭐⭐⭐"
+            hour="9 jam"
             desc="23 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Js}
             title="Java Script"
+            star="⭐⭐⭐"
+            hour="7 jam"
             desc="80 Peserta Telah Mengikuti"
           />
         </div>
@@ -158,16 +165,22 @@ const Home = () => {
           <CardPelatihan
             img={Sql}
             title="SQL"
+            star="⭐⭐⭐⭐"
+            hour="7 jam"
             desc="40 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Php}
             title="PHP"
+            star="⭐⭐⭐⭐"
+            hour="5 jam"
             desc="30 Peserta Telah Mengikuti"
           />
           <CardPelatihan
             img={Java}
             title="Java"
+            star="⭐⭐⭐⭐"
+            hour="8 jam"
             desc="55 Peserta Telah Mengikuti"
           />
         </div>
@@ -178,8 +191,11 @@ const Home = () => {
       <div className="container">
         <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
           <h1>
-          Kenapa Harus Directed?
+           Why Should Be <span style={{ color: "yellow" }}>Directed</span> 
           </h1>
+          <p>
+              beberapa alsaan kenapa kamu harus memilih directed untuk mengambangkan bakat anda!
+          </p>
         </div>
           <CardPopuler />
       

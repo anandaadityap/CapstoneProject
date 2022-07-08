@@ -5,6 +5,17 @@
     z-index: 1;
 }
 
+.navbar-nav a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+}
+
+.navbar-nav a:hover {
+    color: #4f4f4f; 
+    font-weight: 600;
+}
+
 .btn-outline-primary, .btn-outline-warning {
     border-radius: 10px;
     width: 30%;

@@ -60,7 +60,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div class="footer-bottom mb-2">
+      <div class="footer-bottom text-center mb-2">
         Copyright @Directed-2022 | All Rights Reserved
       </div>
     </div>

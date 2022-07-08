@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardFront = (props) => {
     return (
-    <div className="container">
+    <div className="container my-5">
     <div class="row">
       <div class="col">
         <div class="card h-100" style={{ height: "100px" }}>

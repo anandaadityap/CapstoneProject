@@ -34,14 +34,19 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link exact to="/" className="nav-link" >
-                    Search Job
+                  <Link exact to="/Job" className="nav-link" >
+                    Pekerjaan
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" >
+                  <Link exact to="/Kursus" className="nav-link" >
+                    Kursus
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link exact to="/Tentang" className="nav-link" >
                     Tentang
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <form class="d-flex">
