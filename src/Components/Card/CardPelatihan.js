@@ -14,9 +14,10 @@ const CardPelatihan = (props) => {
                 />
                 </div>
                 <div class="col-md-8">
-                    <div class="card h-100">
+                    <div class="card h-100 text-start">
                         <div class="card-body">
-                            <p class="card-text" style={{ fontSize: "Medium" }}>{props.title}</p>
+                            <h5 class="card-text" style={{ fontSize: "Medium" }}>{props.title} {props.star} </h5>
+                            <p class="text-muted" style={{ fontSize: "Small" }}>Waktu: {props.hour}</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">{props.desc}</small>

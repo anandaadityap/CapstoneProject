@@ -11,7 +11,7 @@ const FormSignUp = (props) => {
         <div class="col-md-6">
           <div className="box-form p-5">
             <div class="header mb-4">
-              <div class="h4">LOGIN</div>
+              <div class="h4">Register</div>
               <div class="h1">WELCOME</div>
             </div>
             <form>

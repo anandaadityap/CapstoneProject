@@ -1,6 +1,5 @@
 import './App.css';
 import Accordion from '../Components/Accordion/Accordion';
-import react1 from '../assets/react1.jpg';
 import Footer from '../Components/Footer';
 
 function App() {
@@ -109,8 +108,8 @@ function App() {
             </div>
           </div>
           <img
-            src={react1}
-            alt=""
+            src="../assets/react1.jpg"
+            alt="react"
             className="rounded float-left position-absolute end-10 bottom-0"
             width={500}
           ></img>
