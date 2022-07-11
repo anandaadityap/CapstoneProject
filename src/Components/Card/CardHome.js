@@ -8,9 +8,10 @@ const CardHome = (props) => {
           src={props.img}
           className="card-img-top m-auto"
           style={{ height: "75px", width: "75px" }}
+          alt="Pelatihan Directed"
         />
         <div className="card-body">
-          <h5 className="fw-bold">{props.tittle}</h5>
+          <div className="h5 fw-bold">{props.tittle}</div>
           <p className="card-text" style={{ fontSize: "small" }}>
             {props.desc}
           </p>

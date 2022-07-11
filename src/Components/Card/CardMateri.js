@@ -10,14 +10,14 @@ const CardMateri = () => {
             width: "230px",
           }}
         >
-          <img src={data.gambar} className="card-img-top" />
+          <img src={data.gambar} alt="Pelatihan Directed" className="card-img-top" />
           <div className="card-body text-start">
-            <h4 className="card-title fw-bold ">{data.tittle} </h4>
+            <div className="h7 card-title fw-bold ">{data.tittle} </div>
             <p className="card-text">{data.bintang}</p>
             <p className="card-text fw-bold">by : {data.creator}</p>
             <p className="card-text">{data.desc}</p>
             <a
-              href="#"
+              href="/#"
               className="btn text-light"
               style={{ backgroundColor: "#003060" }}
             >

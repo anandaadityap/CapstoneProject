@@ -7,17 +7,12 @@ import Job from "./Page/Job";
 import Tentang from "./Page/Tentang";
 import Login from "./Page/Login";
 import SignUp from "./Page/SignUp";
-
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import {useState} from "react";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
-
-  const [islogin, setisLogin] = useState(false)
-
   return (
   <div className="App">
       <Router>

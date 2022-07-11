@@ -5,8 +5,8 @@ const Kursus = () => {
   return (
     <div>
       <div className="home-container mt-5 p-5">
-        <div class="m-5 py-3">
-      <div class="card-body text-start">
+        <div className="m-5 py-3">
+      <div className="card-body text-start">
         <h1>Selamat Datang,,, </h1>
         <h3>Temukan Kursus.</h3>
         <h5>sesuai dengan bakatmu...</h5>
@@ -15,7 +15,7 @@ const Kursus = () => {
     </div>
 
     <div className="kursuscontainer m-5">
-      <h1 class="text-start mb-5">
+      <h1 className="text-start mb-5">
         Kursus Terkini
       </h1>
       <CardMateri />

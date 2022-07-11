@@ -4,12 +4,12 @@ import "./CardStart.css";
 const CardStart = (props) => {
   const { src } = props;
   return (
-    <div class="card text-center">
-      <img src={src} class="card-img" alt="gambar"></img>
-      <div class="card-img-overlay position-absolute top-50 start-50 translate-middle ">
+    <div className="card text-center">
+      <img src={src} className="card-img" alt="gambar"></img>
+      <div className="card-img-overlay position-absolute top-50 start-50 translate-middle ">
         <div className="tengah">
-          <h5 class="card-titlee ">Mencari</h5>
-          <a href="#" class="btn btn-warning">
+          <div className="h5 card-titlee ">Mencari</div>
+          <a href="/#" className="btn btn-warning">
             Start Now
           </a>
         </div>

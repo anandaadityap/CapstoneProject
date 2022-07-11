@@ -10,30 +10,30 @@ const Job = () => {
         {/* bagian 1 */}
         <div>
         <div className="home-container mt-5 p-5">
-        <div class="m-5 py-3">
-      <div class="card-body text-start">
+        <div className="m-5 py-3">
+      <div className="card-body text-start">
         <h1>Selamat Datang,,, </h1>
         <h3>Temukan Lowongan Pekerjaan.</h3>
         <h5>hanya di Directed...</h5>
     </div>
     </div>
-          <h1 className="card-title fw-bold text-start mx-5">Dapatkan Pekerjaan <span style={{ color: "red" }}> Sesuai Bakatmu</span></h1>
-          <div class="home mt-5">
-            <div class="d-flex m-5 text-center">
-            <div class="input-group input-group-sm mb-3">
-              <span class="input-group-text " id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="Posisi" aria-label="Posisi" aria-describedby="basic-addon1" />
+          <div className="h1 card-title fw-bold text-start mx-5">Dapatkan Pekerjaan <span style={{ color: "red" }}> Sesuai Bakatmu</span></div>
+          <div className="home mt-5">
+            <div className="d-flex m-5 text-center">
+            <div className="input-group input-group-sm mb-3">
+              <span className="input-group-text " id="basic-addon1">@</span>
+              <input type="text" className="form-control" placeholder="Posisi" aria-label="Posisi" aria-describedby="basic-addon1" />
             </div>
-            <div class="input-group input-group-sm mb-3 ms-3">
-              <span class="input-group-text " id="inputGroup-sizing-sm">#</span>
-              <input type="text" class="form-control" placeholder="Lokasi" aria-label="Lokasi" aria-describedby="basic-addon1" />
+            <div className="input-group input-group-sm mb-3 ms-3">
+              <span className="input-group-text " id="inputGroup-sizing-sm">#</span>
+              <input type="text" className="form-control" placeholder="Lokasi" aria-label="Lokasi" aria-describedby="basic-addon1" />
             </div>
-            <div class="input-group input-group-sm mb-3 ms-3">
-              <span class="input-group-text " id="inputGroup-sizing-sm">?</span>
-              <input type="text" class="form-control" placeholder="Perusahaan" aria-label="Perusahaan" aria-describedby="basic-addon1" />
+            <div className="input-group input-group-sm mb-3 ms-3">
+              <span className="input-group-text " id="inputGroup-sizing-sm">?</span>
+              <input type="text" className="form-control" placeholder="Perusahaan" aria-label="Perusahaan" aria-describedby="basic-addon1" />
             </div>
-            <div class="form ms-3 mb-3">
-              <button type="button" class="btn btn-success">Cari</button>
+            <div className="form ms-3 mb-3">
+              <button type="button" className="btn btn-success">Cari</button>
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const Job = () => {
 
         {/* bagian 2 */}
         <div className="jobcontainer m-5">
-            <h1 class="text-start mb-5">
+            <div className="h1 text-start mb-5">
                 Lowongan Pekerjaan Terkini
-            </h1>
+            </div>
   
           <div className="text-start">
             <CardJob

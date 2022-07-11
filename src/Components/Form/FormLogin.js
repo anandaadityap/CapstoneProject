@@ -6,37 +6,37 @@ const FormLogin = (props) => {
   const {src} = props;
   
   return (
-    <div class="form-container pt-5 m-5">
-      <div class="row">
-        <div class="col-md-6">
+    <div className="form-container pt-5 m-5">
+      <div className="row">
+        <div className="col-md-6">
           <div className="box-form p-5">
-            <div class="header mb-4">
-              <div class="h4">LOGIN</div>
-              <div class="h1">WELCOME</div>
+            <div className="header mb-4">
+              <div className="h4">LOGIN</div>
+              <div className="h1">WELCOME</div>
             </div>
             <form>
-              <div class="email">
-                <label for="input-email">Email Address</label>
+              <div className="email">
+                <label  htmlFor="input-email">Email Address</label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Masukkan Nama Email"
                 />
               </div>
-              <div class="pwd">
-                <label for="input-password">Password</label>
+              <div className="pwd">
+                <label htmlFor="input-password">Password</label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputPassword1"
                   placeholder="Masukkan Password"
                 />
               </div>
-              <div class="h5">OR</div>
+              <div className="h5">OR</div>
               <p>
-                <button type="button" class="btn btn-warning">
+                <button type="button" className="btn btn-warning">
                   <img
                     className="icon"
                     src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
@@ -47,7 +47,7 @@ const FormLogin = (props) => {
                 </button>
               </p>
               <p>
-                <button type="button" class="btn btn-info">
+                <button type="button" className="btn btn-info">
                   <img
                     className="icon"
                     src="https://i.pinimg.com/originals/8e/fb/55/8efb55e9efc12eb11bedf41caa7f33bb.png"
@@ -58,7 +58,7 @@ const FormLogin = (props) => {
                 </button>
               </p>
               <p>
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" className="btn btn-primary">
                   LOGIN
                 </button>
               </p>
@@ -77,7 +77,7 @@ const FormLogin = (props) => {
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div className="col-md-6">
           <img className="back-login" src={src} alt="Gambar Login" width="100%"/>
         </div>
       </div>

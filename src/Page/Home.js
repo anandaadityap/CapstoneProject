@@ -31,14 +31,14 @@ const Home = () => {
       {/* bagian 1 */}
       <div>
         <div className="home-container">
-          <h1 className="card-title fw-bold">Tingkatkan Karirmu Bersama Kami</h1>
+          <div className="h1 card-title fw-bold">Tingkatkan Karirmu Bersama Kami</div>
           <p className="card-text "> <span style={{ color: "yellow" }}>
             Directed, membantumu untuk mencari pekerjaan sesuai bakat dan minat yang kamu miliki.
             </span>
           </p>
-          <div class="home mt-5">
-            <button type="button" class="btn btn-outline-primary">SignIn</button>
-            <button type="button" class="btn btn-outline-warning">SignUp</button>
+          <div className="home mt-5">
+            <button type="button" className="btn btn-outline-primary">SignIn</button>
+            <button type="button" className="btn btn-outline-warning">SignUp</button>
           </div>
         </div>
       </div>
@@ -91,11 +91,11 @@ const Home = () => {
           "Directed" sebuah platform yang memungkinkan orang untuk membuat kelas online dan mencari pekerjaan yang dapat mereka lamar secara online. Dapatkan pekerjaan dan tingkatkan keterampilan dengan kursus yang tersedia di platform ini
           </p>
         </div>
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             <CardStart src={startlearning} />
           </div>
-          <div class="col">
+          <div className="col">
             <CardStart src={startclass} />
           </div>
         </div>
