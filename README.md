@@ -6,6 +6,9 @@ Repositori ini berisi kumpulan code JavaScript mulai dari materi Basic, DOM, ES6
 Project merupakan platform untuk mencari lowongan pekerjaan dan kursus secara online untuk membantu meningkatkan skill dan nilai dari para lulusan SMK/Sarjana perguruan tinggi agar menekan tingkat pengangguran dari kalangan muda masyarakat Indonesia.
 
 ## Fitur
+capstone-project-ashy-three.vercel.app
+
+## Fitur
 Pelatihan Teknologi
 
 Rekomendasi lowongan pekerjaan
