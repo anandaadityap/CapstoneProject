@@ -1,17 +1,17 @@
-import React from "react";
-import "../Page/Home.css";
+import React from 'react';
+import '../Page/Home.css';
+import { Link } from 'react-router-dom';
+import CardHome from '../Components/Card/CardHome';
+import CardPelatihan from '../Components/Card/CardPelatihan';
+import startclass from '../assets/home_kit/startclass.png';
+import CardPopuler from '../Components/Card/CardPopuler';
 
-import CardHome from "../Components/Card/CardHome";
-import CardPelatihan from "../Components/Card/CardPelatihan";
-import startclass from "../assets/home_kit/startclass.png";
-import CardPopuler from "../Components/Card/CardPopuler";
-
-import CardStart from "../Components/Card/CardStart";
-import startlearning from "../assets/home_kit/startlearning.png";
-import jam from "../assets/home_kit/jam.png";
-import toga from "../assets/home_kit/toga.png";
-import tas from "../assets/home_kit/tas.png";
-import webinar from "../assets/home_kit/webinar.png";
+import CardStart from '../Components/Card/CardStart';
+import startlearning from '../assets/home_kit/startlearning.png';
+import jam from '../assets/home_kit/jam.png';
+import toga from '../assets/home_kit/toga.png';
+import tas from '../assets/home_kit/tas.png';
+import webinar from '../assets/home_kit/webinar.png';
 import Word from '../assets/home_kit/Word.png';
 import Excel from '../assets/home_kit/Excel.png';
 import Point from '../assets/home_kit/Point.png';
@@ -22,23 +22,29 @@ import Sql from '../assets/home_kit/Sql.png';
 import Php from '../assets/home_kit/Php.png';
 import Java from '../assets/home_kit/Java.png';
 
-
-
 const Home = () => {
   return (
     <div>
-     
       {/* bagian 1 */}
       <div>
         <div className="home-container">
-          <div className="h1 card-title fw-bold">Tingkatkan Karirmu Bersama Kami</div>
-          <p className="card-text "> <span style={{ color: "yellow" }}>
-            Directed, membantumu untuk mencari pekerjaan sesuai bakat dan minat yang kamu miliki.
+          <div className="h1 card-title fw-bold">
+            Tingkatkan Karirmu Bersama Kami
+          </div>
+          <p className="card-text ">
+            {' '}
+            <span style={{ color: 'yellow' }}>
+              Directed, membantumu untuk mencari pekerjaan sesuai bakat dan
+              minat yang kamu miliki.
             </span>
           </p>
           <div className="home mt-5">
-            <button type="button" className="btn btn-outline-primary">SignIn</button>
-            <button type="button" className="btn btn-outline-warning">SignUp</button>
+            <button type="button" className="btn btn-outline-primary">
+              <Link to="/Login">SignIn</Link>
+            </button>
+            <button type="button" className="btn btn-outline-warning">
+              <Link to="/SignUp">SignUp</Link>
+            </button>
           </div>
         </div>
       </div>
@@ -47,12 +53,14 @@ const Home = () => {
 
       {/* bagian 2 */}
       <div className="container">
-        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+        <div className="mx-auto" style={{ width: '50%', margin: '50px' }}>
           <h1>
-            All-In-One <span style={{ color: "yellow" }}>Can Be Directed.</span>
+            All-In-One <span style={{ color: 'yellow' }}>Can Be Directed.</span>
           </h1>
           <p>
-          Directed adalah salah satu perangkat lunak online paling kuat yang menggabungkan pelatihan teknologi yang diperlukan untuk mengasah keterampilan dan mencari pekerjaan.
+            Directed adalah salah satu perangkat lunak online paling kuat yang
+            menggabungkan pelatihan teknologi yang diperlukan untuk mengasah
+            keterampilan dan mencari pekerjaan.
           </p>
         </div>
 
@@ -83,12 +91,15 @@ const Home = () => {
 
       {/* bagian 3 */}
       <div className="container">
-        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+        <div className="mx-auto" style={{ width: '50%', margin: '50px' }}>
           <h1>
-            LET'S GET <span style={{ color: "yellow" }}>STARTED NOW</span>
+            LET'S GET <span style={{ color: 'yellow' }}>STARTED NOW</span>
           </h1>
           <p>
-          "Directed" sebuah platform yang memungkinkan orang untuk membuat kelas online dan mencari pekerjaan yang dapat mereka lamar secara online. Dapatkan pekerjaan dan tingkatkan keterampilan dengan kursus yang tersedia di platform ini
+            "Directed" sebuah platform yang memungkinkan orang untuk membuat
+            kelas online dan mencari pekerjaan yang dapat mereka lamar secara
+            online. Dapatkan pekerjaan dan tingkatkan keterampilan dengan kursus
+            yang tersedia di platform ini
           </p>
         </div>
         <div className="row">
@@ -104,13 +115,11 @@ const Home = () => {
 
       {/* bagian 4 */}
       <div className="container">
-        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+        <div className="mx-auto" style={{ width: '50%', margin: '50px' }}>
           <h1>
-              Our <span style={{ color: "yellow" }}>Popular Course</span>
+            Our <span style={{ color: 'yellow' }}>Popular Course</span>
           </h1>
-          <p>
-              yuk simak pelatihan yang banyak di ikuti saat ini
-          </p>
+          <p>yuk simak pelatihan yang banyak di ikuti saat ini</p>
         </div>
 
         <div className="d-flex">
@@ -189,19 +198,18 @@ const Home = () => {
 
       {/* bagian 5 */}
       <div className="container">
-        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+        <div className="mx-auto" style={{ width: '50%', margin: '50px' }}>
           <h1>
-           Why Should Be <span style={{ color: "yellow" }}>Directed</span> 
+            Why Should Be <span style={{ color: 'yellow' }}>Directed</span>
           </h1>
           <p>
-              beberapa alsaan kenapa kamu harus memilih directed untuk mengambangkan bakat anda!
+            beberapa alsaan kenapa kamu harus memilih directed untuk
+            mengambangkan bakat anda!
           </p>
         </div>
-          <CardPopuler />
-      
-        </div>
+        <CardPopuler />
+      </div>
       {/* penutup bagian 5 */}
-      
     </div>
   );
 };

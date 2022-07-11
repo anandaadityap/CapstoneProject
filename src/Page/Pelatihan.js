@@ -1,8 +1,8 @@
-import React from "react";
-import "../Page/Pelatihan.css";
-import CardHome from "../Components/Card/CardHome";
-import CardFront from "../Components/Card/CardFront";
-import CardLatest from "../Components/Card/CardLatest";
+import React from 'react';
+import '../Page/Pelatihan.css';
+import CardHome from '../Components/Card/CardHome';
+import CardFront from '../Components/Card/CardFront';
+import CardLatest from '../Components/Card/CardLatest';
 import Html from '../assets/home_kit/Html.png';
 import Css from '../assets/home_kit/Css.png';
 import Js from '../assets/home_kit/Js.png';
@@ -12,7 +12,7 @@ import Php from '../assets/home_kit/Php.png';
 import Word from '../assets/home_kit/Word.png';
 import Excel from '../assets/home_kit/Excel.png';
 import Point from '../assets/home_kit/Point.png';
-
+import { Link } from 'react-router-dom';
 import design from '../assets/pelatihan_kit/design.png';
 import aps from '../assets/pelatihan_kit/aps.png';
 import web from '../assets/pelatihan_kit/web.png';
@@ -23,26 +23,35 @@ const Pelatihan = () => {
     <div>
       {/* bagian 1 */}
       <div className="pelatihan-container">
-          <div className="h1 card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</div>
-          <p className="card-text "> <span style={{ color: "yellow" }}>
+        <div className="h1 card-title fw-bold">
+          Kembangkan keterampilan Anda dengan kursus online bersama directed.
+        </div>
+        <p className="card-text ">
+          {' '}
+          <span style={{ color: 'yellow' }}>
             Pelatihan terjangkau, mulai dari Rp 0
-            </span>
-          </p>
-          <div className="home mt-5">
-            <button type="button" className="btn btn-outline-primary">SignIn</button>
-            <button type="button" className="btn btn-outline-warning">SignUp</button>
-          </div>
-    </div>
+          </span>
+        </p>
+        <div className="home mt-5">
+          <button type="button" className="btn btn-outline-primary">
+            <Link to="/Login">SignIn</Link>
+          </button>
+          <button type="button" className="btn btn-outline-warning">
+            <Link to="/SignUp">SignUp</Link>
+          </button>
+        </div>
+      </div>
       {/* penutup bagian 1 */}
 
       {/* bagian 2 */}
       <div className="container">
-        <div className="mx-auto" style={{ width: "50%", margin: "50px" }}>
+        <div className="mx-auto" style={{ width: '50%', margin: '50px' }}>
           <h1>
-            Kategori <span style={{ color: "yellow" }}>Pelatihan</span>
+            Kategori <span style={{ color: 'yellow' }}>Pelatihan</span>
           </h1>
           <p>
-            di DIRECTED terdapat kategori pelatihan yang bisa kamu pilih sesuai bakat yang kamu sukai.
+            di DIRECTED terdapat kategori pelatihan yang bisa kamu pilih sesuai
+            bakat yang kamu sukai.
           </p>
         </div>
 
@@ -74,11 +83,10 @@ const Pelatihan = () => {
       {/* bagian 3 */}
       <div className="container my-5">
         <div className="text-center my-5">
-          <h1>
-              Pelatihan Front End Developer
-          </h1>
-          <p> 
-            Kuasai Pelatihan Front End Developer untuk masa depan yang lebih baik.
+          <h1>Pelatihan Front End Developer</h1>
+          <p>
+            Kuasai Pelatihan Front End Developer untuk masa depan yang lebih
+            baik.
           </p>
         </div>
 
@@ -111,23 +119,23 @@ const Pelatihan = () => {
             star="4.9"
             price="RP. 90.0000"
           />
-          </div>
         </div>
+      </div>
       {/* penutup bagian 3 */}
 
       {/* bagian 4 */}
       <div className="container mb-5">
         <div className="d-flex mt-5">
-          <div className="h1 text-start m-auto">
-            Pelatihan Popular
-          </div>
-          <div className="h1 text-end m-auto">
-            Pelatihan Terbaru
-          </div>
-          </div>
-          <div className="d-flex mb-5">
-          <p className="text-start m-auto">berikut ini adalah pelatihan populer yang ada di directed</p>
-          <p className="text-start m-auto">berikut ini adalah pelatihan terbaru yang ada di directed</p>
+          <div className="h1 text-start m-auto">Pelatihan Popular</div>
+          <div className="h1 text-end m-auto">Pelatihan Terbaru</div>
+        </div>
+        <div className="d-flex mb-5">
+          <p className="text-start m-auto">
+            berikut ini adalah pelatihan populer yang ada di directed
+          </p>
+          <p className="text-start m-auto">
+            berikut ini adalah pelatihan terbaru yang ada di directed
+          </p>
         </div>
 
         <div className="text-start">
@@ -167,8 +175,8 @@ const Pelatihan = () => {
             starl="4.9"
             pricel="49.000"
           />
-          </div>
         </div>
+      </div>
       {/* penutup bagian 4 */}
     </div>
   );
