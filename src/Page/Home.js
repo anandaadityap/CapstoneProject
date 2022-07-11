@@ -104,10 +104,10 @@ const Home = () => {
         </div>
         <div className="row">
           <div className="col">
-            <CardStart src={startlearning} />
+            <CardStart src={startlearning} page={'/Job'} />
           </div>
           <div className="col">
-            <CardStart src={startclass} />
+            <CardStart src={startclass} page={'/Kursus'} />
           </div>
         </div>
       </div>

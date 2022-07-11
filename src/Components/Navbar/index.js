@@ -10,7 +10,7 @@ const Navbar = () => {
         style={{ backgroundColor: '#003060' }}
       >
         <div className="container">
-          <Link to="/#" className="navbar-brand fw-bold" href="#">
+          <Link to="/" className="navbar-brand fw-bold" href="#">
             Directed.
           </Link>
           {/* <div className="row"> */}
@@ -32,11 +32,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link
-                    to="/"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
+                  <Link to="/" className="nav-link active" aria-current="page">
                     Home
                   </Link>
                 </li>
