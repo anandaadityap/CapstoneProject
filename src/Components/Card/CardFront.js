@@ -3,20 +3,20 @@ import React from 'react';
 const CardFront = (props) => {
     return (
     <div className="container my-5">
-    <div class="row">
-      <div class="col">
-        <div class="card h-100" style={{ height: "100px" }}>
+    <div className="row">
+      <div className="col">
+        <div className="card h-100" style={{ height: "100px" }}>
           <img
           src={props.img}
-          className="card-img"
-          class="w-50 m-auto"
+          className="card-img w-50 m-auto"
+          alt="Pelatihan Directed"
           />
-        <div class="card-body">
+        <div className="card-body">
           <h5>{props.title}</h5>
-          <p class="card-text" style={{ fontSize: "Small" }}>{props.desc}</p>
+          <p className="card-text" style={{ fontSize: "Small" }}>{props.desc}</p>
         </div>
-        <div class="card-footer">
-          <h7 class="text-muted">⭐ {props.star}  |||  <button type="submit" value="Send" class="btn btn-success">{props.price}</button></h7>
+        <div className="card-footer">
+          <div className="h7 text-muted"><span role="img" aria-label="star">⭐</span> {props.star}  |||  <button type="submit" value="Send" className="btn btn-success">{props.price}</button></div>
         </div>
         </div>
       </div>

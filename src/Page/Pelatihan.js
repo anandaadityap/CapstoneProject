@@ -23,14 +23,14 @@ const Pelatihan = () => {
     <div>
       {/* bagian 1 */}
       <div className="pelatihan-container">
-          <h1 className="card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</h1>
+          <div className="h1 card-title fw-bold">Kembangkan keterampilan Anda dengan kursus online bersama directed.</div>
           <p className="card-text "> <span style={{ color: "yellow" }}>
             Pelatihan terjangkau, mulai dari Rp 0
             </span>
           </p>
-          <div class="home mt-5">
-            <button type="button" class="btn btn-outline-primary">SignIn</button>
-            <button type="button" class="btn btn-outline-warning">SignUp</button>
+          <div className="home mt-5">
+            <button type="button" className="btn btn-outline-primary">SignIn</button>
+            <button type="button" className="btn btn-outline-warning">SignUp</button>
           </div>
     </div>
       {/* penutup bagian 1 */}
@@ -117,17 +117,17 @@ const Pelatihan = () => {
 
       {/* bagian 4 */}
       <div className="container mb-5">
-        <div class="d-flex mt-5">
-          <h1 class="text-start m-auto">
+        <div className="d-flex mt-5">
+          <div className="h1 text-start m-auto">
             Pelatihan Popular
-          </h1>
-          <h1 class="text-end m-auto">
-            Pelatihan Terbaru
-          </h1>
           </div>
-          <div class="d-flex mb-5">
-          <p class="text-start m-auto">berikut ini adalah pelatihan populer yang ada di directed</p>
-          <p class="text-start m-auto">berikut ini adalah pelatihan terbaru yang ada di directed</p>
+          <div className="h1 text-end m-auto">
+            Pelatihan Terbaru
+          </div>
+          </div>
+          <div className="d-flex mb-5">
+          <p className="text-start m-auto">berikut ini adalah pelatihan populer yang ada di directed</p>
+          <p className="text-start m-auto">berikut ini adalah pelatihan terbaru yang ada di directed</p>
         </div>
 
         <div className="text-start">
