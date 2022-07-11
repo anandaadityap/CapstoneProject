@@ -1,10 +1,9 @@
-import React from "react";
-import "./Index.css";
-
+import React from 'react';
+import './Index.css';
 
 const FormSignUp = (props) => {
-  const {src} = props;
-  
+  const { src } = props;
+
   return (
     <div className="form-container pt-5 m-5">
       <div className="row">
@@ -15,7 +14,7 @@ const FormSignUp = (props) => {
               <div className="h1">WELCOME</div>
             </div>
             <form>
-            <div className="namalengkap mb-3">
+              <div className="namalengkap mb-3">
                 <input
                   type="Nama Lengkap"
                   className="form-control"
@@ -23,7 +22,7 @@ const FormSignUp = (props) => {
                   aria-describedby="NamaHelp"
                   placeholder="Masukkan Nama Lengkap"
                 />
-            </div>
+              </div>
               <div className="email mb-3">
                 <input
                   type="email"
@@ -58,7 +57,7 @@ const FormSignUp = (props) => {
                     src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
                     alt="icon"
                     width="5%"
-                  />{" "}
+                  />{' '}
                   Masuk dengan Google
                 </button>
               </p>
@@ -69,7 +68,7 @@ const FormSignUp = (props) => {
                     src="https://i.pinimg.com/originals/8e/fb/55/8efb55e9efc12eb11bedf41caa7f33bb.png"
                     alt="icon"
                     width="5%"
-                  />{" "}
+                  />{' '}
                   Masuk dengan Facebook
                 </button>
               </p>
@@ -94,7 +93,12 @@ const FormSignUp = (props) => {
         </div>
 
         <div className="col-md-6">
-          <img className="back-login" src={src} alt="Gambar Login" width="100%"/>
+          <img
+            className="back-login"
+            src={src}
+            alt="Gambar Login"
+            width="100%"
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import "../Footer/index.css";
+import React from 'react';
+import '../Footer/index.css';
 
 export default function Navbar() {
   return (
@@ -65,5 +65,4 @@ export default function Navbar() {
       </div>
     </div>
   );
-};
-
+}

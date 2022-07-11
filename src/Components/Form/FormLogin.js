@@ -1,10 +1,9 @@
-import React from "react";
-import "./Index.css";
-
+import React from 'react';
+import './Index.css';
 
 const FormLogin = (props) => {
-  const {src} = props;
-  
+  const { src } = props;
+
   return (
     <div className="form-container pt-5 m-5">
       <div className="row">
@@ -16,7 +15,7 @@ const FormLogin = (props) => {
             </div>
             <form>
               <div className="email">
-                <label  htmlFor="input-email">Email Address</label>
+                <label htmlFor="input-email">Email Address</label>
                 <input
                   type="email"
                   className="form-control"
@@ -42,7 +41,7 @@ const FormLogin = (props) => {
                     src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
                     alt="icon"
                     width="5%"
-                  />{" "}
+                  />{' '}
                   Masuk dengan Google
                 </button>
               </p>
@@ -53,7 +52,7 @@ const FormLogin = (props) => {
                     src="https://i.pinimg.com/originals/8e/fb/55/8efb55e9efc12eb11bedf41caa7f33bb.png"
                     alt="icon"
                     width="5%"
-                  />{" "}
+                  />{' '}
                   Masuk dengan Facebook
                 </button>
               </p>
@@ -78,7 +77,12 @@ const FormLogin = (props) => {
         </div>
 
         <div className="col-md-6">
-          <img className="back-login" src={src} alt="Gambar Login" width="100%"/>
+          <img
+            className="back-login"
+            src={src}
+            alt="Gambar Login"
+            width="100%"
+          />
         </div>
       </div>
     </div>

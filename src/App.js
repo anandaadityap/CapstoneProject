@@ -10,6 +10,7 @@ import SignUp from './Page/SignUp';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import DetailKursus from './Page/DetailKursus';
 // import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
 
           <Route path="/Tentang">
             <Tentang />
+          </Route>
+
+          <Route path="/DetailKursus">
+            <DetailKursus />
           </Route>
 
           <Route path="/">

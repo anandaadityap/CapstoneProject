@@ -1,4 +1,4 @@
-import DataCardMateri from "../../config/DataKursus";
+import DataCardMateri from '../../config/DataKursus';
 
 const CardMateri = () => {
   return (
@@ -7,19 +7,23 @@ const CardMateri = () => {
         <div
           className="card m-3"
           style={{
-            width: "230px",
+            width: '230px',
           }}
         >
-          <img src={data.gambar} alt="Pelatihan Directed" className="card-img-top" />
+          <img
+            src={data.gambar}
+            alt="Pelatihan Directed"
+            className="card-img-top"
+          />
           <div className="card-body text-start">
             <div className="h7 card-title fw-bold ">{data.tittle} </div>
             <p className="card-text">{data.bintang}</p>
             <p className="card-text fw-bold">by : {data.creator}</p>
             <p className="card-text">{data.desc}</p>
             <a
-              href="/#"
+              href="/DetailKursus"
               className="btn text-light"
-              style={{ backgroundColor: "#003060" }}
+              style={{ backgroundColor: '#003060' }}
             >
               Ayo Belajar
             </a>
