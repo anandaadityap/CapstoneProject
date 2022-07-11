@@ -1,52 +1,29 @@
-.container {
-    width: 700px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px 15px;
-    font-family: poppins;
-  }
-  
-  .footer {
-    padding: 30px 0;
-    text-align: center;
-  }
-  
-  .footer a {
-    color: #555555;
-    text-decoration: underline;
-  }
-  
-  .footer a:hover {
-    color: #000000;
-  }
-  
-  .react-container {
-    background-color: #003060;
-    max-width: 100%;
-    text-align: left;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-bottom: 30%;
-    padding-right: 5%;
-    color: #003060;
-    font-family: 'Poppins';
-    background-size: cover;
-    background-color: azure;
-  }
-  
-  .materi {
-    color: black;
-    padding-left: 60%;
-    padding-top: 0%;
-  }
-  
-  .button-primary {
-    width: 160px;
-    height: 45px;
-    background-color: #003060;
-    border: none;
-    font-size: 16px;
-    color: azure;
-    font-weight: 400;
-  }
-  
+.react-container {
+  background-color: #003060;
+  max-width: 100%;
+  text-align: justify;
+  padding-top: 13%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  color: #003060;
+  font-family: 'Poppins';
+  background-size: cover;
+  background-color: azure;
+}
+
+.materi {
+  color: black;
+  padding-left: 60%;
+  padding-top: 0%;
+}
+
+.button-primary {
+  width: 160px;
+  height: 45px;
+  background-color: #003060;
+  border: none;
+  font-size: 16px;
+  color: azure;
+  font-weight: 400;
+}

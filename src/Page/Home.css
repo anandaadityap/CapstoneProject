@@ -1,74 +1,14 @@
-.conatinerrs {
+.home-container {
     background-image: url(../assets/home_kit/home1.png);
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-
-.header1 {
-    position: absolute;
-    left: 5.79%;
-    right: 60.01%;
-    top: 20.45%;
-    bottom: 92.72%;
+    max-width: 100%;
     text-align: left;
-    color:azure;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 75px;
-}
-
-.header2 {
-    position: absolute;
-    left: 5.79%;
-    right: 60.15%;
-    top: 55.12%;
-    bottom: 88.43%;
-    text-align: left;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 50%;
     color: azure;
+    font-family: 'Poppins';
 }
 
-.button-primary {
-    position: absolute;
-    left: 16.79%;
-    right: 60.15%;
-    top: 68.30%;
-    bottom: 88.43%;
-    
-    text-align: left;
-    width:133px;
-    height:40px;
-    background-color: transparent;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    color: azure;
-    border: none;
-    font-size: 16px;
-}
 
-.button-secondary {
-    position: absolute;
-    left: 5.79%;
-    right: 60.15%;
-    top: 68.12%;
-    bottom: 88.43%;
-    
-    width: 133px;
-    height: 40px;
-    background-color: #FFC107;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    color: var(--pr-color);
-    font-size: 16px;
-    border-radius: 20px;
-    Border: none;
-}
+  

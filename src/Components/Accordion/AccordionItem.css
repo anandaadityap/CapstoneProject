@@ -24,7 +24,7 @@
 }
 
 .accordion-item-btn::after {
-  content: "";
+  content: '';
   flex-shrink: 0;
   width: 18px;
   height: 18px;
@@ -47,4 +47,5 @@
 .accordion-item-content {
   border-top: 1px solid #cccccc;
   padding: 15px 20px;
+  text-align: justify;
 }

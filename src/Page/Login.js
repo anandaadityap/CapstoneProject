@@ -1,15 +1,11 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Form from "../Components/Form";
-import Footer from "../Components/Footer";
-import CardHome from "../Components/Card/CardHome";
+import FormLogin from "../Components/Form/FormLogin";
+import BackLogin from "../assets/login.png";
 
 function Login() {
   return (
     <>
-      <Navbar />
-      <Form />
-      <Footer />
+      <FormLogin src={BackLogin}/>
     </>
   );
 }
