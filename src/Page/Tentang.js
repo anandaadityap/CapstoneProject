@@ -10,7 +10,7 @@ const Tentang = () => {
         style={{ backgroundColor: '#8DACCC' }}
       >
         <div className="h1 card-title fw-bold text-start mx-5">
-          Kenali Pengembang Lebih Jauh...
+          Kenali Pengembang Lebih Jauh.
         </div>
       </div>
 

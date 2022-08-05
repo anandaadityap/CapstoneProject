@@ -7,9 +7,9 @@ const Kursus = () => {
       <div className="home-container mt-5 p-5">
         <div className="m-5 py-3">
           <div className="card-body text-start">
-            <h1>Selamat Datang,,, </h1>
-            <h3>Temukan Kursus.</h3>
-            <h5>sesuai dengan bakatmu...</h5>
+            <h1>Selamat Datang</h1>
+            <h3>Temukan Kursus</h3>
+            <h5>sesuai dengan bakatmu</h5>
           </div>
         </div>
       </div>

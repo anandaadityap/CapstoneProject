@@ -12,9 +12,9 @@ const Job = () => {
         <div className="home-container mt-5 p-5">
           <div className="m-5 py-3">
             <div className="card-body text-start">
-              <h1>Selamat Datang,,, </h1>
-              <h3>Temukan Lowongan Pekerjaan.</h3>
-              <h5>hanya di Directed...</h5>
+              <h1>Selamat Datang</h1>
+              <h3>Temukan Lowongan Pekerjaan</h3>
+              <h5>hanya di Directed</h5>
             </div>
           </div>
           <div className="h1 card-title fw-bold text-start mx-5">
